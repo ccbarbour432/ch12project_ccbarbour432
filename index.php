@@ -11,6 +11,11 @@
     <h1>Searching a Database with PHP and MySQL</h1>
     <p>Calen Barbour</p>
     <p>November 6, 2026</p>
+<form action="results.php" method="POST">
+    <label for="email">Student Email Address:</label>
+    <input type="email" id="email" name="email" required>
 
+    <input type="submit" value="Search">
+</form>
 </body>
 </html>
