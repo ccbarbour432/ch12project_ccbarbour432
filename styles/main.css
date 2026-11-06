@@ -16,12 +16,14 @@ input[type="submit"] {
     cursor: pointer;
 }
     
+    .message {
+        margin: 20px;
+}
+
     .message-success {
     color: green;
-    margin: 20px;
 }
 
 .message-error {
     color: red;
-    margin: 20px;
 }
